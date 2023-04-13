@@ -1,0 +1,15 @@
+## bài 1
+trong nextjs không dùng route như bên reactjs
+mà nó sử dụng 1 file có tên là pages 
+/pages
+    index.js -----> my.domain.com/
+    about.js -----> my.domain.com/about
+    /products
+        index.js -----> all products page
+        [id].js -----> produce detauil page
+
+tức là không cần tạo route để làm gì cho mệt người tạo file pages là xong 
+có 3 loại routes
+    index routes: tên file index
+    nested routes: là các page lồng nhau
+    Dynamic routes: là các page hỗ trợ các page có parameter trên đó ví dụ như :id ...
